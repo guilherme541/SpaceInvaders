@@ -42,7 +42,7 @@ public class Alien : MonoBehaviour
                 PlayerPrefs.SetInt("HScore", uiManager.score);
                 uiManager.hScoreText.text = uiManager.score.ToString();
             }
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(2);
         }
     }
 

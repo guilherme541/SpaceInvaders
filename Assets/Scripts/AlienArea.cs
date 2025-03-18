@@ -101,6 +101,7 @@ public class AlienArea : MonoBehaviour
 
         if (speed >= 5) speed = 5;
 
+        Debug.Log(amountDead);
         if (amountDead >= totalAliens)
         {
             if (uiManager.score > uiManager.hScore)
