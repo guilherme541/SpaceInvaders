@@ -24,6 +24,7 @@ public class Bunkers : MonoBehaviour
     {
         if (collision.CompareTag("Alien"))
         {
+            Destroy(gameObject);
             collision.gameObject.GetComponent<Alien>().DestroyAlien();
         }
 
